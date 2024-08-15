@@ -35,7 +35,7 @@ A letra "u" é convertida para "ufat"
 
 ## Como Usar
 
-1. Acesse o link: 
+1. Acesse o link: em breve será disponibilizado...
 2. Digite o texto que deseja criptografar ou descriptografar no campo de entrada.
 3. Clique no botão "Criptografar" para criptografar o texto ou no botão "Descriptografar" para descriptografar o texto.
 4. O resultado será exibido no campo de resultado.
