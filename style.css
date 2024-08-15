@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;   
+}
+
+body {
+    height: 100vh;
+    background-color: #E5E5E5;
+    overflow: hidden;
+}
+    
+.cabecalho {    
+    display: flex;
+    width: 100px;
+}
+
+.logo {
+    margin-left: 100px;
+    padding-top: 20px;
+    width: 65px; 
+}
+
+main {
+    display: flex;
+    margin-left: 150px;
+}
+
+.textarea-container {
+    padding-left: 100px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    background-color: transparent;
+    resize: none;
+    height: 400px;
+    font-size: 32px;
+}
+
+::placeholder {color: #0A3871;}
+    .text-area:focus{
+        outline: none;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-criptografar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    transition: all 0.8s ease;
+}
+
+@keyframes anima {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+.btn-criptografar:hover {
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.btn-descriptografar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.btn-descriptografar:hover {
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: #0A3871;
+    color: #D8DFE8;
+}
+
+.resultado-container {
+    position: relative;
+    background-color: white;
+    border-radius: 32px;
+    color: #0A3871;
+    height: 500px;
+    width: 100%;
+    max-width: 340px;
+    padding-top: 20px;
+}
+
+.resultado-container .resultado-inicial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    height: 100%;
+}
+
+.imagem {
+    width: 262px;
+    height: 237px;
+}
+
+.resultado-container .resultado-inicial h2 {
+    color: #343A40;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resultado-container .resultado-inicial p {
+    text-align: center;
+    color: #495057;
+}
+
+.resultado-container .resultado-final {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    font-size: 24px;
+    gap: 32px;
+    height: 100%;
+}
+
+.resultado-texto {
+    font-size: 32px;
+    text-align: center;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 375px;
+    width: 200px;
+    height: 50px; 
+}
+
+.btn-copiar:hover {
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: #0A3871;
+    color: #D8DFE8;
+}
+
+.rodape-container {
+      height: 100px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #116074;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+span {
+    color: #0A3871;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.rodape img {
+    display: flex;
+    width: 20px;
+    margin-right: 100px;
+}

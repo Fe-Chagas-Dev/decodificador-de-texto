@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./imagens/logo.png" alt="logo criptografia">
+    </header>
+
+    <main>
+        <section class="textarea-container">
+            <textarea id="text-area" class="text-area" cols="41" rows="4" type="text" placeholder="Digite seu texto..."></textarea>
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button id="encriptar" class="btn-criptografar" onclick="criptografar()">Criptografar</button>
+                <button id="desencriptar" class="btn-descriptografar"
+                    onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="resultado-container">
+            <div id="resultado-inicial" class="resultado-inicial">
+                <img class="imagem" src="./imagens/boneco-com-lupa.png" alt="boneco-com-lupa">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja <br> criptografar ou descriptografar</p>
+            </div>
+            <div id="resultado-final" class="resultado-final" style="display: none;">
+                <p id="resultado-texto" class="resultado-texto"></p>
+                <button id="btn-copiar" class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape-container">
+        <div class="rodape">
+            <h3>Desenvolvido por <span>Fernando Chagas</span></h3>
+            <a href="https://www.linkedin.com/in/fernando-chagas-dev" target="_blank">
+                <img src="./imagens/linkedin.png" alt="ícone Linkedin">
+            </a>
+        </div>
+
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
