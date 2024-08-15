@@ -1,4 +1,4 @@
-![Decodificador de Texto]()
+![Decodificador de Texto](https://github.com/Fe-Chagas-Dev/decodificador-de-texto/blob/main/imagens/Front-end-Decodificador%20de%20Texto%20-%20Challenge%20ONE%20-%20Turma%2007.png)
 
 # Decodificador de Texto
 
